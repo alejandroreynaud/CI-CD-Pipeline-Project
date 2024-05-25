@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Reynaud</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100vw;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #b71c1c;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .header span {
+            font-family: 'Arial', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        .projects {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .projects h1 {
+            font-family: 'Courier New', monospace;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-card {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .project-card h1 {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: #1e88e5;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 0.5rem;
+        }
+
+        @media (max-width: 640px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .header span {
+                font-size: 1rem;
+            }
+
+            .projects h1 {
+                font-size: 2rem;
+            }
+
+            .project-card {
+                width: 95%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body>
+    <div class="headerex">
+        <h1>Alejandro Reynaud</h1>
+        <span>Computer Systems Engineer Student!</span>
+    </div>
+
+    <div class="projects">
+        <h1>Projects</h1>
+        </div>
+        <div class="project-card">
+            <h1><a href="https://github.com/alejandroreynaud/ProyectoNetflix">ProyectoNetflix</a></h1>
+            <p>A project to explore and analyze Netflix data.</p>
+        </div>
+    </div>
+</body>
+</html>
